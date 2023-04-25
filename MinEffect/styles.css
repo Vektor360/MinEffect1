@@ -1,0 +1,70 @@
+
+   .btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+   }
+   body {
+    background: url(materials/Fon.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   }
+   .first {
+    color: white;
+    font-family: Georgia, serif;
+    display:inline;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+    }
+    .Glav {
+        color: white;
+        font-family: Georgia, serif;
+        font-size: 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px black;
+        display:inline;
+        }
+    .first_sp {
+        display: inline-block; /* Строчно-блочный элемент */
+        font-family: Georgia, serif;
+        background: #8C959D; /* Серый цвет фона */
+        color: #fff; /* Белый цвет текста */
+        padding: 1rem 1.5rem; /* Поля вокруг текста */
+        text-decoration: none; /* Убираем подчёркивание */
+        border-radius: 3px; /* Скругляем уголки */
+        display:inline;
+        font-size: 30px;
+        text-shadow: 1px 1px 2px black;
+        }
+        .first_min_sp {
+            display: inline-block; /* Строчно-блочный элемент */
+            font-family: Georgia, serif;
+            background: #8C959D; /* Серый цвет фона */
+            color: #fff; /* Белый цвет текста */
+            padding: 1rem 1.5rem; /* Поля вокруг текста */
+            text-decoration: none; /* Убираем подчёркивание */
+            border-radius: 3px; /* Скругляем уголки */
+            display:inline;
+            font-size: 20px;
+            text-shadow: 1px 1px 2px black;
+            }
+    .second_sp {
+        position: relative; top: 20%; left: -50%;
+        font-family: Georgia, serif;
+        background: #8C959D; /* Серый цвет фона */
+        color: #fff; /* Белый цвет текста */
+        padding: 1rem 1.5rem; /* Поля вокруг текста */
+        text-decoration: none; /* Убираем подчёркивание */
+        border-radius: 3px; /* Скругляем уголки */
+        font-size: 30px;
+        text-shadow: 1px 1px 2px black;
+        }
