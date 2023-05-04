@@ -1,0 +1,168 @@
+
+   .btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+   }
+   body {
+    background: url(materials/Fon.jpg) repeat-y;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   }
+   .first {
+    color: white;
+    font-family: Tahoma, serif;
+    display:inline;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+    margin-top:50px;
+    }
+    .Glav {
+        color: white;
+        font-family: Tahoma, serif;
+        font-size: 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px black;
+        display:inline;
+        margin-top:50px;
+        }
+    .first_sp {
+        display: inline-block; /* Строчно-блочный элемент */
+        font-family: Tahoma, serif;
+        background: #8C959D; /* Серый цвет фона */
+        color: #fff; /* Белый цвет текста */
+        padding: 1rem 1.5rem; /* Поля вокруг текста */
+        text-decoration: none; /* Убираем подчёркивание */
+        border-radius: 3px; /* Скругляем уголки */
+        display:inline;
+        font-size: 30px;
+        text-shadow: 1px 1px 2px black;
+        margin-top:50px;
+        }
+        .first_min_sp {
+            display: inline-block; /* Строчно-блочный элемент */
+            font-family: Tahoma, serif;
+            background: #8C959D; /* Серый цвет фона */
+            color: #fff; /* Белый цвет текста */
+            padding: 1rem 1.5rem; /* Поля вокруг текста */
+            text-decoration: none; /* Убираем подчёркивание */
+            border-radius: 3px; /* Скругляем уголки */
+            display:inline;
+            font-size: 20px;
+            text-shadow: 1px 1px 2px black;
+            margin-top:50px;
+            }
+    .second_sp {
+        position: relative; top: 40px; left: -50%;
+        font-family: Tahoma, serif;
+        background: #8C959D; /* Серый цвет фона */
+        color: #fff; /* Белый цвет текста */
+        padding: 1rem 1.5rem; /* Поля вокруг текста */
+        text-decoration: none; /* Убираем подчёркивание */
+        border-radius: 3px; /* Скругляем уголки */
+        font-size: 30px;
+        text-shadow: 1px 1px 2px black;
+        margin-top:50px;
+        }
+
+        .form_radio_group {
+            display: inline-block;
+            overflow: hidden;
+            margin-top:50px;
+        }
+        .form_radio_group-item {
+            display: inline-block; 
+        }
+        .form_radio_group input[type=radio] {
+            display: none;
+        }
+        .form_radio_group label {
+            display: inline-block;
+            cursor: pointer;
+            padding: 0px 15px;
+            line-height: 34px;
+            border: 1px solid #999;
+            border-right: none;
+            user-select: none;
+            color: #fff;
+            font-family: Tahoma, serif;
+            font-size: 30px;
+            text-shadow: 1px 1px 2px black;
+        }
+         
+        .form_radio_group .form_radio_group-item:first-child label {
+            border-radius: 6px 0 0 6px;
+        }
+        .form_radio_group .form_radio_group-item:last-child label {
+            border-radius: 0 6px 6px 0;
+            border-right: 1px solid #999;
+        }
+         
+        /* Checked */
+        .form_radio_group input[type=radio]:checked + label {
+            background: #050504;
+        }
+         
+        /* Hover */
+        .form_radio_group label:hover {
+            color: #666;
+        }
+        .table_left
+        {
+            color: white;
+            font-family: Tahoma, serif;
+            display:inline;
+            font-size: 30px;
+            text-shadow: 1px 1px 2px black;
+            margin-top:50px;
+            margin-right:50px;
+            Width: 1000px;
+            border: #050504 3px;
+        }
+        table {
+            color: white;
+            font-family: Tahoma, serif;
+            font-size: 30px;
+            text-shadow: 1px 1px 2px black;
+            margin-top:70px;
+            Width: 100%;
+            border: 5px solid black;
+            border-collapse: collapse;
+            
+            }
+        tr {
+            color: white;
+            font-family: Tahoma, serif;
+            font-size: 30px;
+            text-shadow: 1px 1px 2px black;
+            border: 5px solid black;
+            border-collapse: collapse;
+            
+            }
+        td {
+            color: white;
+            font-family: Tahoma, serif;
+            font-size: 30px;
+            text-shadow: 1px 1px 2px black;
+            border: 5px solid black;
+            border-collapse: collapse;
+            
+            }
+            th {
+                color: white;
+                font-family: Tahoma, serif;
+                font-size: 30px;
+                text-shadow: 1px 1px 2px black;
+                border: 5px solid black;
+                border-collapse: collapse;
+                
+                }
